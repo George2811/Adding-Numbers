@@ -15,9 +15,9 @@
     background-color: #222831;
     display: flex;
     width: 50%;
-    height: 10vh;
+    height: 12vh;
     justify-content: space-evenly;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     align-items: center;
 }
 .bar-menu h1{
@@ -38,6 +38,7 @@
     padding: 0px 20px;
     background-color: #f05454;
     border: none;
+    outline: none;
     transition: all 0.3s ease;
 }
 .btn-clear:hover{
@@ -47,6 +48,34 @@
 }
 /*--------------Dynamics Numbers-------------*/
 .numbers-block{
-
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    margin-top: 4%;
+    padding-top: 4%;
+    align-content:flex-start;
+    align-items: baseline;
+    background-color: #222831;
+    border-radius: 10px 10px 0px 0px;    
 }
-
+.numbers-block input{
+    width: 12%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f05454;
+    border-style: none;
+    outline: none;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}   
+.numbers-block input:hover{
+    width: 14%;
+    height: 58px;
+    cursor: pointer;
+    font-size: 20px;
+}
