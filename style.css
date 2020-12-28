@@ -5,6 +5,9 @@
     font-family: 'Poppins', sans-serif;
     background-color: #30475e;
 }
+body{
+    padding-bottom: 45px;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -28,6 +31,7 @@
     border-radius: 10px;
     font-weight: bold;
     font-size: 20px;
+    outline: none;
 }
 .number{
     background-color: #e8e8e8;
@@ -47,18 +51,19 @@
     cursor: pointer;
 }
 /*--------------Dynamics Numbers-------------*/
+
 .numbers-block{
     display: flex;
     flex-flow: row wrap;
     width: 50%;
-    height: 100vh;
+    height:max-content;
     justify-content: center;
     margin-top: 4%;
-    padding-top: 4%;
+    padding: 4% 0;
     align-content:flex-start;
     align-items: baseline;
     background-color: #222831;
-    border-radius: 10px 10px 0px 0px;    
+    border-radius: 10px;    
 }
 .numbers-block input{
     width: 12%;

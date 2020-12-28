@@ -1,0 +1,3 @@
+- add dark/light mode
+- add a menu with more options
+- do it responsive
