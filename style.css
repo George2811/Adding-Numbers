@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    background-color: #30475e;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*--------------Bar Menu-------------*/
+.bar-menu {
+    background-color: #222831;
+    display: flex;
+    width: 50%;
+    height: 10vh;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+}
+.bar-menu h1{
+    background-color: transparent;
+}
+.bar-menu input{
+    height: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.number{
+    background-color: #e8e8e8;
+    color: #222831;
+    text-align: center;
+}
+.btn-clear{
+    padding: 0px 20px;
+    background-color: #f05454;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-clear:hover{
+    background-color: #e8e8e8;
+    color: #f05454;
+    cursor: pointer;
+}
+/*--------------Dynamics Numbers-------------*/
+.numbers-block{
+
+}
+
